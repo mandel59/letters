@@ -51,5 +51,10 @@ dfn {
 small {
   font-size: 0.8em;
 }
-
+small:before {
+  content: "【";
+}
+small:after {
+  content: "】";
+}
 
